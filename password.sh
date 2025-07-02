@@ -37,3 +37,5 @@ build_password() {
 }
 
 build_password
+
+#command issue while generating mixtures
