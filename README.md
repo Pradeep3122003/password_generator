@@ -32,6 +32,9 @@ cd password_generator
 ```bash
 # Generate a password using default settings
 python3 password.py
+
+# Generate a password using custom length (example: 15)
+python3 password.py 15
 ```
 
 ### Shell version
