@@ -3,10 +3,18 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-    string pass = "";
-    const int length = 16;
+int main(int argc, char* argv[]) {
+    int length = 16;
 
+    if (argc > 1) {
+        length = atoi(argv[1]);
+        if (length <= 0) {
+            cout << "Invalid length!" << endl;
+            return 1;
+        }
+    }
+
+    string pass = "";
     srand(time(nullptr));
 
     for (int i = 0; i < length; i++) {
