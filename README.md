@@ -50,6 +50,19 @@ chmod +x password
 ./password 20
 ```
 
+### C++ version
+
+```bash
+# Compile the code
+g++ password.cpp -o pass
+
+# Generate a password using default settings
+./pass
+
+# Generate a password using custom length (example: 15)
+./pass 15
+```
+
 ### Web Version
 * Click open the html file and use.
 
