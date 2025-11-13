@@ -18,7 +18,7 @@ def number(seed):
 def generate():
   sys_words = system_wordlist()
   password=""
-  length=random.randint(0,8)
+  length=random.randint(3,8)
   for i in range(length):
     toss=random.randint(0,3)
     if toss==0 or toss==1:
