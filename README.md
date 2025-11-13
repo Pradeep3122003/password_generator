@@ -50,5 +50,6 @@ chmod +x password
 ./password 20
 ```
 
-
+### Web Version
+* Click open the html file and use.
 
