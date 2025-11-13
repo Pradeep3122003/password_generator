@@ -65,4 +65,4 @@ g++ password.cpp -o pass
 
 ### Web Version
 * Click open the html file and use.
-
+* or checkout this [click](https://pradeep3122003.github.io/password_generator/password.html)
